@@ -18,13 +18,30 @@
 .title-right button{margin-right:8px;padding:16px;}
 .title-right .circle{padding: 14px 16px;}
 
-.SideNav{min-width: 360px;}
+.SideNav{min-width: 360px; background-color: var(--bgColor-muted, var(--color-canvas-subtle));}
 .SideNav-icon{margin-right: 16px}
+
+.SideNav-item{
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 20px 16px !important;
+    color: var(--fgColor-default, var(--color-fg-default));
+    text-align: left;
+    background-color: rgb(247 0 0 / 0%);
+    border: 0;
+    border-bottom: 1px solid var(--borderColor-muted, var(--color-border-muted)) !important;
+}
 .SideNav-item .Label{color: #fff;margin-left:4px;}
 .d-flex{min-width:0;}
 .listTitle{overflow:hidden;white-space:nowrap;text-overflow: ellipsis;max-width: 100%;}
 .listLabels{white-space:nowrap;display:flex;}
 .listLabels object{max-height:16px;max-width:24px;}
+
+
+.border{
+    border: none !important;
+}
 
 @media (max-width: 600px) {
     body {padding: 8px;}
